@@ -1,0 +1,25 @@
+[project]
+name = "deep-research"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-search-results>=2.4.2",
+    "httpx>=0.28.1",
+    "huggingface-hub>=0.29.3",
+    "mammoth>=1.9.0",
+    "mcp[cli]>=1.5.0",
+    "pathvalidate>=3.2.3",
+    "pdfminer-six>=20240706",
+    "pillow>=11.1.0",
+    "puremagic>=1.28",
+    "pydub>=0.25.1",
+    "python-pptx>=1.0.2",
+    "requests>=2.32.3",
+    "serpapi>=0.1.5",
+    "smolagents[litellm]>=1.12.0",
+    "speechrecognition>=3.14.2",
+    "transformers>=4.50.0",
+    "youtube-transcript-api>=1.0.2",
+]
